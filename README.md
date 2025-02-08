@@ -3,6 +3,8 @@ Detailed Readme coming soon.
 
 This repo aims to provide functions for AI web scraping which can be easily used to make Web Search + Extraction/Scraping Agents or Workflow.
 
+Advantage over other available library is that it is very good with extracting urls which is critical for many scraping operation, the functions are easy to use and can be easily added to any codebase, it uses the open source webpage to llm ready text convertor https://github.com/m92vyas/llm-reader an alternative to firecrawl and jina reader api so reducing costs.
+
 ### Install:
 ```python
 pip install git+https://github.com/m92vyas/llm-reader.git git+https://github.com/m92vyas/AI-web_scraper.git
