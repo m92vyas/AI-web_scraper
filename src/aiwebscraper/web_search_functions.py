@@ -2,6 +2,8 @@ from litellm import acompletion, token_counter
 import json, os
 from googlesearch import search
 
+model=None
+
 async def get_search_query(what_to_extract, model=model, verbose=True):
 
   prompt_text = f"""Below i have given you one user requirement for web scraping. You have to provide a google search query for the given user requirement so that we can get relevant urls.

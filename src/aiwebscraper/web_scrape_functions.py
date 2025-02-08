@@ -4,6 +4,7 @@ from litellm import acompletion, token_counter
 import asyncio, json, os
 from aiwebscraper.web_search_functions import get_search_query, default_search_and_get_urls
 
+model= None
 
 def filter_till_token_limit(model, messages, input_tokens_allowed):
   input_tokens = token_counter(model=model, messages=messages)
