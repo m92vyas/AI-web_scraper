@@ -25,7 +25,7 @@ model= "openai/gpt-4o-mini"    # "gemini/gemini-1.5-flash"
 No anti-blocking mechanism is available so you may get blocked by some websites. Solution for this will be added.
 
 ### Quick Web Data Extraction:
-Just type your query and get scraped data from the web. e.g.
+Just give your query and get scraped data from the web. You can also mention any output format in your query. e.g.
 ```python
 what_to_extract="what is the scenario in the coming decade for solar energy investment in india?"
 extracted_data = await scrape_data_from_web(what_to_extract , top_n_urls=5, model=model)
