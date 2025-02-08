@@ -2,7 +2,7 @@ from url_to_llm_text.get_html_text import get_page_source
 from url_to_llm_text.get_llm_input_text import get_processed_text
 from litellm import acompletion, token_counter
 import asyncio, json, os
-from src.aiwebscraper.web_search_functions import get_search_query, default_search_and_get_urls
+from aiwebscraper.web_search_functions import get_search_query, default_search_and_get_urls
 
 
 def filter_till_token_limit(model, messages, input_tokens_allowed):
