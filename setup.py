@@ -8,7 +8,7 @@ setup(
     , author_email     = 'maharishi92vyas@gmail.com'
     , packages         = find_packages('src')
     # , package_dir      = {'': 'src'}
-    , url              = 'https://github.com/m92vyas/llm-reader.git'
+    , url              = 'https://github.com/m92vyas/AI-web_scraper.git'
     , keywords         = 'AI Web Scraping'
     , install_requires = [
                             'google==3.0.0',
