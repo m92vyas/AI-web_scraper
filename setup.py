@@ -13,7 +13,7 @@ setup(
     , install_requires = [
                             'google',
                             'litellm',
-                            'git+https://github.com/m92vyas/llm-reader.git',
+                            # 'git+https://github.com/m92vyas/llm-reader.git',
                          ]
     , include_package_data=True
 )
