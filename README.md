@@ -21,6 +21,8 @@ os.environ["OPENAI_API_KEY"] = <open_ai_key>
 # os.environ["GEMINI_API_KEY"] = <gemini_key>
 model= "openai/gpt-4o-mini"    # "gemini/gemini-1.5-flash"
 ```
+### Note:
+No anti-blocking mechanism is available so you may get blocked by some websites. Solution for this will be added.
 
 ### Quick Web Data Extraction:
 Just type your query and get scraped data from the web. e.g.
