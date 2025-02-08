@@ -5,7 +5,7 @@ This repo aims to provide functions for AI web scraping which can be easily used
 
 ### Install:
 ```python
-pip install -q git+https://github.com/m92vyas/llm-reader.git git+https://github.com/m92vyas/AI-web_scraper.git
+pip install git+https://github.com/m92vyas/llm-reader.git git+https://github.com/m92vyas/AI-web_scraper.git
 ```
 
 ### Import:
@@ -18,7 +18,7 @@ I have used LiteLLM library to provide support for various API based and local m
 ```python
 import os
 os.environ["OPENAI_API_KEY"] = <open_ai_key>
-os.environ["GEMINI_API_KEY"] = <gemini_key>
+# os.environ["GEMINI_API_KEY"] = <gemini_key>
 model= "openai/gpt-4o-mini"    # "gemini/gemini-1.5-flash"
 ```
 
