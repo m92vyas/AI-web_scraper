@@ -1,0 +1,4 @@
+google==3.0.0
+# googlesearch_python==1.2.4
+litellm==1.60.8
+git+https://github.com/m92vyas/llm-reader.git
