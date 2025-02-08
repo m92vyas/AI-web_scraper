@@ -11,8 +11,8 @@ setup(
     , url              = 'https://github.com/m92vyas/AI-web_scraper.git'
     , keywords         = 'AI Web Scraping'
     , install_requires = [
-                            'google=3.0.0',
-                            'litellm=1.60.8',
+                            'google',
+                            'litellm',
                             'git+https://github.com/m92vyas/llm-reader.git',
                          ]
     , include_package_data=True
