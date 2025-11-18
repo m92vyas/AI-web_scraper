@@ -9,6 +9,8 @@ As the code is open source you can use the [llm-reader](https://github.com/m92vy
 ### Install:
 ```python
 pip install git+https://github.com/m92vyas/llm-reader.git git+https://github.com/m92vyas/AI-web_scraper.git
+playwright install
+playwright install-deps
 ```
 
 ### Import:
