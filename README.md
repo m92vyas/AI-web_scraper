@@ -1,9 +1,9 @@
 # AI Web Scraper
 Detailed Readme coming soon.
 
-This repo aims to provide functions for AI web scraping which can be easily used to make Web Search + Extraction/Scraping Agents or Workflow.
+This repo aims to provide functions for AI web scraping which can be easily used to make Web Search + Extraction/Scraping Agents or Workflow. The functions are very simple to replace and you can easily use your own tools or other paid tools as an alternative.
 
-Advantage over other available AI scraping library is that it is very good with extracting urls which is critical for many scraping operation, the functions are easy to use and can be easily added to any codebase, it uses the open source webpage to llm ready text convertor [llm-reader](https://github.com/m92vyas/llm-reader) an alternative to firecrawl and jina reader api so reducing costs.
+Advantage over other available AI scraping library is that it is very good with extracting urls which is critical for many scraping operation, the functions are easy to use and can be easily added to any codebase, it uses the open source webpage to llm ready text convertor [llm-reader](https://github.com/m92vyas/llm-reader) an alternative to firecrawl and jina reader api so reducing cost.
 As the code is open source you can use the [llm-reader](https://github.com/m92vyas/llm-reader) to create any web related AI features similar to this repo.
 
 ### Install:
@@ -27,7 +27,7 @@ os.environ["OPENAI_API_KEY"] = <open_ai_key>
 model= "openai/gpt-4o-mini"    # "gemini/gemini-1.5-flash"
 ```
 ### Note:
-No anti-blocking mechanism is available so you may get blocked by some websites. Solution for this will be added.
+No anti-blocking mechanism is available so you may get blocked by some websites. Possible solution for this is shown in the [llm-reader repo](https://github.com/m92vyas/llm-reader/tree/main#to-scrape-and-crawl-without-getting-blocked).
 
 ### Quick Web Data Extraction:
 Just give your query and get scraped data from the web. You can also mention any output format in your query. e.g.
